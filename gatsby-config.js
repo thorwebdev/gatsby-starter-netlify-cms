@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Stripe Guides',
+    title: 'Stripe Devhelp',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

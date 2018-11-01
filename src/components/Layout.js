@@ -6,7 +6,7 @@ import './all.sass'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="Home | Stripe Guides" />
+    <Helmet title="Home | Stripe Devhelp" />
     <Navbar />
     <div>{children}</div>
   </div>
