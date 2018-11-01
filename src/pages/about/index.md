@@ -4,4 +4,4 @@ title: About our values
 ---
 ### Users First
 
-We don't care about our lovely users :)
+We care about our lovely people :)
