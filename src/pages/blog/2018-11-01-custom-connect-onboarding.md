@@ -146,6 +146,9 @@ stripe.createToken('bank_account', {
 ### Collecting Photo ID Images
 When collecting [images of documentation such as drivers licenses](https://stripe.com/docs/connect/identity-verification-api#acceptable-id-types) Stripe recommends using the File Upload API from the client-side to upload the images directly Stripe.
 
+### Using Account Tokens
+If you don't want to touch the connected account's information you can submit it client side using [account token](https://stripe.com/docs/connect/account-tokens).
+
 # Verification
 
 Custom connected accounts go through three distinct verification states which can be found in the Account Object's [`legal_entity.verification.status`](https://stripe.com/docs/api#account_object-legal_entity-verification-status) parameter. When a {{connect_account_name}} onboards to {{merchant_name}}, the {{connect_account_name}} will transition between these states through the lifetime of the account. Changes in account state can be tracked by listening to the [`account.updated`](https://stripe.com/docs/api#event_types-account.updated) webhook event.
