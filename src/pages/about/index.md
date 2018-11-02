@@ -1,7 +1,6 @@
 ---
 templateKey: about-page
-title: About our values
+title: Guides and resources
 ---
-### Users First
-
-We care about our lovely users :)
+### Explore and learn more about everything from machine learning and global payments to building marketplaces and issuing stock.
+[![](/img/guidesimage.png)](https://stripe.com/guides)
